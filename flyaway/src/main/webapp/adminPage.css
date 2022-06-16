@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+#wrapper {
+	margin-top: 150px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+#flights {
+	margin-top: 10%;
+}
+
+#sources {
+	margin-top: 50px;
+}
+
+#destinations {
+	margin-top: 50px;
+}
+
+#airlines {
+	margin-top: 50px;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 1px solid;
+	font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+		background-color: rgba(10, 133, 180, .5);
+		color: #fff;
+}
+
+td, th {
+	min-width: 175px;
+}
+
+#changePW {
+	background-color: rgba(10, 133, 180, .5);
+}
+
+input {
+    margin: 15px 15px;
+    max-width: 450px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 70px;
+    background: none;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background-color: #fff;
+    color:rgba(10, 133, 180, .5);
+    cursor: pointer;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 20px;
+}

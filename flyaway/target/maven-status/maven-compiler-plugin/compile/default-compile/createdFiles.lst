@@ -1,0 +1,5 @@
+com\vollmer\flyaway\dao\UserDao.class
+com\vollmer\flyaway\servlets\LogoutServlet.class
+com\vollmer\flyaway\dto\User.class
+com\vollmer\flyaway\servlets\RegisterServlet.class
+com\vollmer\flyaway\util\HibernateUtil.class
